@@ -1,0 +1,21 @@
+/* bulma - initial variables */
+$orange:                  hsl(31, 100%, 50%);
+
+/* bulma - derived variables */
+$primary:                 hsl(31, 100%, 50%);
+$family-primary:          ff-meta-serif-web-pro, serif;
+$family-secondary:        montserrat, sans-serif;
+
+/* bulma - generic variables */
+$body-size:               18px;
+$body-weight:             300;
+$strong-weight:           700;
+
+/* default styling */
+@import '~bulma';
+
+/* trump styling */
+@import './elementor';
+
+.navbar,
+.footer { display: none !important; }

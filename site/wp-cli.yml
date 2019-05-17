@@ -1,0 +1,10 @@
+path: web/wp
+server:
+  docroot: web
+
+@development:
+  ssh: vagrant@skinnartrampet.test/srv/www/skinnartrampet.se/current
+@staging:
+  ssh: web@staging.skinnartrampet.se/srv/www/skinnartrampet.se/current
+@production:
+  ssh: web@skinnartrampet.se/srv/www/skinnartrampet.se/current

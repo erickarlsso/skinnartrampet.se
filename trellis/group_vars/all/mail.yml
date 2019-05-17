@@ -1,0 +1,6 @@
+# Documentation: https://roots.io/trellis/docs/mail/
+mail_smtp_server: smtp.eu.mailgun.org:587
+mail_admin: postmaster@mg.skinnartrampet.se
+mail_hostname: mg.skinnartrampet.se
+mail_user: postmaster@mg.skinnartrampet.se
+mail_password: "{{ vault_mail_password }}" # Define this variable in group_vars/all/vault.yml
