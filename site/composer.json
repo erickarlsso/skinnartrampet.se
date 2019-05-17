@@ -41,7 +41,9 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/elementor": "^2.5",
-    "wpackagist-plugin/w3-total-cache": "0.9.7.4"
+    "wpackagist-plugin/w3-total-cache": "0.9.7.4",
+    "wpackagist-plugin/disable-comments": "^1.9",
+    "wpackagist-plugin/autodescription": "^3.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
