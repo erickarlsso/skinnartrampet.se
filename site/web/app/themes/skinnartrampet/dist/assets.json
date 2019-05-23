@@ -2,7 +2,15 @@
   "images/ico/favicon-16x16.png": "images/ico/favicon-16x16_a71181d1.png",
   "images/ico/favicon-32x32.png": "images/ico/favicon-32x32_2c7c7fe8.png",
   "images/ico/favicon.ico": "images/ico/favicon_014b5283.ico",
-  "scripts/customizer.js": "scripts/customizer_574cef5d.js",
-  "styles/main.css": "styles/main_574cef5d.css",
-  "scripts/main.js": "scripts/main_574cef5d.js"
+  "images/skinnartrampet-logotype_normal-100.jpg": "images/skinnartrampet-logotype_normal-100_968738ba.jpg",
+  "images/skinnartrampet-logotype_normal.png": "images/skinnartrampet-logotype_normal_cf7c197a.png",
+  "images/skinnartrampet-logotype_normal.svg": "images/skinnartrampet-logotype_normal_a500354b.svg",
+  "images/skinnartrampet-logotype_normal@2x.png": "images/skinnartrampet-logotype_normal@2x_4b0c0352.png",
+  "images/skinnartrampet-logotype_wide-100.jpg": "images/skinnartrampet-logotype_wide-100_38567003.jpg",
+  "images/skinnartrampet-logotype_wide.png": "images/skinnartrampet-logotype_wide_da6a444a.png",
+  "images/skinnartrampet-logotype_wide.svg": "images/skinnartrampet-logotype_wide_2df34b84.svg",
+  "images/skinnartrampet-logotype_wide@2x.png": "images/skinnartrampet-logotype_wide@2x_06ff85cc.png",
+  "scripts/customizer.js": "scripts/customizer_47acb5f4.js",
+  "styles/main.css": "styles/main_47acb5f4.css",
+  "scripts/main.js": "scripts/main_47acb5f4.js"
 }

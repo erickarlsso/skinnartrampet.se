@@ -1,0 +1,49 @@
+.footer {
+  padding: 2rem 0 3rem;
+  background-color: $black;
+
+  &-menu {
+    flex-flow: column;
+    font-family: $family-secondary;
+    font-weight: 900;
+    font-style: normal;
+
+    @include desktop {
+      flex-flow: row nowrap;
+    }
+
+    a {
+      display: block;
+      padding: 0 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+  }
+
+  &-title {
+    font-family: $family-secondary;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: $white;
+  }
+
+  &-logo img {
+    max-height: 4rem;
+  }
+
+  ul {
+    a {
+      border-bottom: 0.125rem solid transparent;
+      transition: border-color 333ms;
+      color: $white;
+    }
+
+    li.current-menu-item a,
+    li.current_page_item a,
+    li a:hover {
+      border-color: $primary;
+    }
+  }
+}

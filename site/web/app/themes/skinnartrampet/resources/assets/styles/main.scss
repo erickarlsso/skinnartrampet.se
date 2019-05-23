@@ -14,8 +14,18 @@ $strong-weight:           700;
 /* default styling */
 @import '~bulma';
 
+/* component styling */
+@import './navbar';
+@import './footer';
+
 /* trump styling */
 @import './elementor';
 
-.navbar,
-.footer { display: none !important; }
+body:not(.home) { padding-top: 5rem; }
+
+.site {
+  .main {
+    position: relative;
+    min-height: 100vh;
+  }
+}

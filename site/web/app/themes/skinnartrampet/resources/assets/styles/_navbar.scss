@@ -1,0 +1,51 @@
+.navbar {
+  background-color: $primary;
+
+  &-brand {
+    position: relative;
+
+    img,
+    svg {
+      margin: 0 auto;
+      align-self: center;
+      height: 4rem;
+      width: auto;
+      max-width: 100%;
+      max-height: none;
+    }
+  }
+
+  &-logo {
+    position: absolute;
+    display: flex;
+    top: 1rem;
+    left: 1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: $white;
+    border-radius: 1rem;
+  }
+
+  &-menu {
+    font-family: $family-secondary;
+    font-weight: 900;
+    font-style: normal;
+
+    @include touch {
+      background-color: mix($black, $primary, 10%);
+    }
+
+    ul li a {
+      display: block;
+      padding: 0 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+      line-height: 2.5rem;
+      color: $white;
+
+      @include touch {
+        text-align: right;
+      }
+    }
+  }
+}
